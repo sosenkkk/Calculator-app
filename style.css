@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+}
+
+body{
+    background-color: hsl(222, 26%, 31%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    max-width: 450px;
+    width: 95%;
+}
+.title{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    align-items: center;
+}
+input{
+    padding: 10px 15px;
+    text-align: right;
+}
+.sec{
+    margin: 10px 0;
+}
+.number{
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.number p{
+    margin: 0 5px;
+}
+.control p{
+    float: right;
+}
+.screen{
+    width:100%;
+}
+#screen{
+    color: white;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    background-color: hsl(224, 36%, 15%);
+    border: none;
+    font-size: 3rem;
+}
+.themer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: hsl(30, 25%, 89%);
+    color:  hsl(221, 14%, 31%);
+    font-size: 2rem;
+   margin: 10px 0;
+   box-shadow: 0 5px 0 0 hsl(28, 16%, 65%);
+  
+}
+.calculator{
+    border-radius: 5px;
+    background-color: hsl(223, 31%, 20%);
+    
+}
+.btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 10px 10px 0 10px;
+    
+}
+.btn button{
+    align-self: center;
+    justify-self: center;
+    
+}
+.equal{
+    background-color: hsl(6, 63%, 50%) ;
+    box-shadow: 0 5px 0 0  hsl(6, 70%, 34%);
+    color: white;
+    width: 2;
+}
+.res{
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0 5px 0  0 hsl(224, 28%, 35%);
+    color: white;
+}
+.flex-con{
+    display: flex;
+    padding: 10px;
+}
+.flex-con button{
+    margin: 0 10px 10px ;
+   flex-grow: 1; 
+}
+
+.slider{
+    -webkit-appearance: none;
+    border-radius: 12px;
+    width:50px;
+    padding: 0;
+    background: hsl(224, 36%, 15%);
+    
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 16px;
+    height: 16px; 
+    background: hsl(6, 63%, 50%);
+    border-radius: 50%;
+}
