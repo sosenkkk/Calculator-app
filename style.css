@@ -14,6 +14,14 @@ body{
     align-items: center;
     height: 100vh;
 }
+
+.theme2body{
+    background-color:hsl(0, 0%, 90%);
+}
+.theme3body{
+    background-color:hsl(268, 75%, 9%)
+}
+
 .container{
     max-width: 450px;
     width: 95%;
@@ -41,17 +49,25 @@ input{
 .control p{
     float: right;
 }
-.screen{
-    width:100%;
-}
+
 #screen{
-    color: white;
     width: 100%;
     height: 100px;
     border-radius: 10px;
-    background-color: hsl(224, 36%, 15%);
     border: none;
     font-size: 3rem;
+}
+.screen{
+    color: white;
+    background-color: hsl(224, 36%, 15%);
+}
+.theme2screen{
+    background-color:hsl(0, 0%, 93%) ;
+    color: hsl(60, 10%, 19%);
+}
+.theme3screen{
+    background-color:hsl(268, 71%, 12%) ;
+    color: hsl(52, 100%, 62%);
 }
 .themer{
     display: flex;
@@ -72,10 +88,25 @@ button{
    box-shadow: 0 5px 0 0 hsl(28, 16%, 65%);
   
 }
+.theme2button{
+    background-color: hsl(45, 7%, 89%);
+    box-shadow: 0 5px 0 0 hsl(35, 11%, 61%);
+    color: hsl(60, 10%, 19%);
+}
+.theme3button{
+    background-color:  hsl(268, 47%, 21%);
+    box-shadow: 0 5px 0 0 hsl(290, 70%, 36%);
+    color: hsl(52, 100%, 62%);
+}
 .calculator{
     border-radius: 5px;
-    background-color: hsl(223, 31%, 20%);
-    
+    background-color: hsl(223, 31%, 20%);  
+}
+.theme2calculator{
+    background-color:  hsl(0, 5%, 81%);
+}
+.theme3calculator{
+    background-color:  hsl(281, 89%, 26%);
 }
 .btn{
     display: grid;
@@ -95,11 +126,52 @@ button{
     color: white;
     width: 2;
 }
+.theme2equal{
+    background-color: hsl(25, 98%, 40%) ;
+    box-shadow: 0 5px 0 0  hsl(25, 99%, 27%);
+}
+.theme3equal{
+    background-color:  hsl(176, 100%, 44%) ;
+    box-shadow: 0 5px 0 0  hsl(177, 92%, 70%);
+    color: black;
+}
 .res{
     background-color: hsl(225, 21%, 49%);
     box-shadow: 0 5px 0  0 hsl(224, 28%, 35%);
     color: white;
 }
+
+.theme2res{
+    background-color:  hsl(185, 42%, 37%);
+    box-shadow: 0 5px 0  0 hsl(185, 58%, 25%);
+}
+.theme3res{
+    background-color:  hsl(290, 70%, 36%);
+    box-shadow: 0 5px 0  0 hsl(285, 91%, 52%);
+}
+.del{
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0 5px 0  0 hsl(224, 28%, 35%);
+    color: white;
+}
+.theme2del{
+    background-color:  hsl(185, 42%, 37%);
+    box-shadow: 0 5px 0  0 hsl(185, 58%, 25%);
+}
+.theme3del{
+    background-color:   hsl(290, 70%, 36%);
+    box-shadow: 0 5px 0  0 hsl(285, 91%, 52%);
+}
+.title{
+    color:white;
+}
+.theme2tit{
+    color: hsl(60, 10%, 19%);
+}
+.theme3tit{
+    color: hsl(52, 100%, 62%);
+}
+
 .flex-con{
     display: flex;
     padding: 10px;
@@ -116,6 +188,12 @@ button{
     padding: 0;
     background: hsl(224, 36%, 15%);
     
+}
+.theme2slider{
+    background: hsl(28, 16%, 65%);
+}
+.theme3slider{
+    background:hsl(268, 71%, 12%);
 }
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none; 
