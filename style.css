@@ -149,6 +149,10 @@ button{
     background-color:  hsl(290, 70%, 36%);
     box-shadow: 0 5px 0  0 hsl(285, 91%, 52%);
 }
+.theme4res{
+    background-color: black;
+    box-shadow:0 0 5px 0 gray;
+}
 .del{
     background-color: hsl(225, 21%, 49%);
     box-shadow: 0 5px 0  0 hsl(224, 28%, 35%);
